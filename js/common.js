@@ -40,7 +40,9 @@ $(".toggle_menu").click(function() {
 	};
 });
 
-$(".top_text_anim h1, .top_text_anim h2, .top_text_anim p").addClass("fadeInUp animated");
+window.onload=function(){
+$(".top_text_anim h1, .top_text_anim h2, .top_text_anim p").addClass("fadeInUp animated");}
+
 $(".block-form ").addClass("fadeIn animated");
 
 
