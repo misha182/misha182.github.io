@@ -1,0 +1,103 @@
+@import "../bourbon/bourbon"
+
+$color: #fd6f00 //Theme skin
+$text_color: #4b4b4b
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+p
+	color: $text_color
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+.main_color_bg
+	background-color: $main_color
+
+.toggle_menu
+	background-color: rgba(0,0,0,.1)
+	&:hover
+		background-color: rgba(0,0,0,0.7)
+
+.top_menu
+	a:hover
+		color: $color
+		background-color: rgba(255,255,255,.05)
+	a
+	+kerning(4)
+
+.block-form
+	background-color: rgba(0,0,0,.7)
+
+form
+	input:focus,
+	textarea:focus
+		border: 1px solid $color 
+		background-color: $bg_light
+		outline: none
+	input,
+	textarea
+		+kerning(2)
+	.form-group
+		+kerning(2)
+		color: #fff
+		text-align: left
+#contacts
+	.form-group
+		color: #888
+	button
+		color: #fff
+
+
+section
+	h2
+		+kerning(2)
+
+button
+	background-color: $color
+	+kerning(2)
+
+.s_title,
+.s_subtitle
+	color: #fff
+
+#advantages,
+#service,
+#reviews
+	background-color: $bg_light
+
+.main_footer
+	.f_name
+		color: #fff
+		
+.s_portfolio
+	li 
+		color: $text_color
+		+kerning(2)
+	li.active
+		color: #888
+		border-bottom: 1px solid $color
+
+.portfolio_item .port_item_cont
+	a
+		border-color: $color
+		color: $color
+
+.port_descr
+	h3
+		color: $color
+

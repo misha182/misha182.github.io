@@ -1,0 +1,86 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #fd6f00; }
+
+p {
+  color: #4b4b4b; }
+
+.color_element {
+  color: #fd6f00; }
+
+.color_bg {
+  background-color: #fd6f00; }
+
+.color_border {
+  border-color: #fd6f00; }
+
+.main_color_bg {
+  background-color: #222; }
+
+.toggle_menu {
+  background-color: rgba(0, 0, 0, 0.1); }
+  .toggle_menu:hover {
+    background-color: rgba(0, 0, 0, 0.7); }
+
+.top_menu {
+  letter-spacing: 4px; }
+  .top_menu a:hover {
+    color: #fd6f00;
+    background-color: rgba(255, 255, 255, 0.05); }
+
+.block-form {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #fd6f00;
+  background-color: #FAFAFA;
+  outline: none; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form .form-group {
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: left; }
+
+#contacts .form-group {
+  color: #888; }
+#contacts button {
+  color: #fff; }
+
+section h2 {
+  letter-spacing: 2px; }
+
+button {
+  background-color: #fd6f00;
+  letter-spacing: 2px; }
+
+.s_title,
+.s_subtitle {
+  color: #fff; }
+
+#advantages,
+#service,
+#reviews {
+  background-color: #FAFAFA; }
+
+.main_footer .f_name {
+  color: #fff; }
+
+.s_portfolio li {
+  color: #4b4b4b;
+  letter-spacing: 2px; }
+.s_portfolio li.active {
+  color: #888;
+  border-bottom: 1px solid #fd6f00; }
+
+.portfolio_item .port_item_cont a {
+  border-color: #fd6f00;
+  color: #fd6f00; }
+
+.port_descr h3 {
+  color: #fd6f00; }
