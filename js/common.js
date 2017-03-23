@@ -46,6 +46,7 @@ $(".block-form ").addClass("fadeIn animated");}
 
 $(".animation_1").animated("flipInY", "fadeOutUp");
 $(".animation_2").animated("bounceInRight", "bounceOutRight");
+$(".animation_2_2").animated("bounceInRight");
 $(".animation_3").animated("zoomIn", "zoomOut");
 $(".animation_4").animated("fadeInUp", "fadeOutDown");
 
