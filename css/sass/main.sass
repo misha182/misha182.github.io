@@ -334,11 +334,6 @@ section,
 .parallax-mirror
 	filter: blur(2px)
 
-#service,
-#portfolio
-	border-bottom: 1px solid #e0e0e0
-
-
 
 .s_portfolio
 	ul,
@@ -508,6 +503,9 @@ footer
 		margin-left: -5px
 		ul
 			list-style: none
+			margin-top: 0
+			margin-bottom: 10px
+			padding-left: 0
 			li
 				display: inline-block
 				padding-left: 5px
@@ -515,6 +513,37 @@ footer
 				a 
 					font-size: 18px
 					color: #888
+	.navi
+		padding-left: 0
+		margin-left: -5px
+		ul
+			list-style: none
+			margin-top: 0
+			margin-bottom: 10px
+			padding-left: 0
+			li
+				display: inline-block
+				padding-left: 0
+				padding-right: 5px
+				a 
+					color: #888
+					text-transform: uppercase
+					font-size: 13px
+				&:hover
+					-webkit-transform: scale(1.1)
+					-ms-ransform: scale(1.1)
+					transform: scale(1.1)
+					transition: .2s
+	.footer_cont
+		padding-left: 0
+		margin-left: -5px
+		margin-top: 20px
+		p
+			color: #888
+			font-size: 14px
+			margin: 5px
+
+
 
 
 .top_text_anim
@@ -538,6 +567,14 @@ footer
 		+animation-delay(.9s)
 	&:nth-child(4)
 		+animation-delay(1.2s)
+
+.animation_3
+	+animation-delay(.3s)
+	&:nth-child(2)
+		+animation-delay(.9s)
+	&:nth-child(3)
+		+animation-delay(.6s)
+
 	
 
 
